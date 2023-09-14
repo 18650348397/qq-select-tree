@@ -1,0 +1,39 @@
+{
+  "name": "qq-select-tree",
+  "version": "1.0.7",
+  "description": "基于Element UI封装的树形下拉选择器",
+  "private": false,
+  "author": "498433041@qq.com",
+  "license": "MIT",
+  "main": "lib/qq-select-tree.umd.min.js",
+  "keywords": [
+    "vue",
+    "element",
+    "select",
+    "tree",
+    "select-tree"
+  ],
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "lib": "vue-cli-service build --target lib --name qq-select-tree --dest lib packages/index.js"
+  },
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "element-ui": "^2.15.14",
+    "vue": "^2.6.11"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.15",
+    "@vue/cli-plugin-eslint": "~4.5.15",
+    "@vue/cli-service": "~4.5.15",
+    "babel-eslint": "^10.1.0",
+    "babel-plugin-component": "^1.1.1",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "sass": "^1.26.5",
+    "sass-loader": "^8.0.2",
+    "vue-template-compiler": "^2.6.11"
+  }
+}
