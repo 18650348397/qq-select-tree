@@ -1,11 +1,15 @@
 {
   "name": "qq-select-tree",
-  "version": "1.0.7",
+  "version": "1.0.9",
   "description": "基于Element UI封装的树形下拉选择器",
   "private": false,
   "author": "498433041@qq.com",
   "license": "MIT",
   "main": "lib/qq-select-tree.umd.min.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/18650348397/qq-select-tree"
+  },
   "keywords": [
     "vue",
     "element",
